@@ -1,4 +1,4 @@
-require_relative '../../lib/services/algolia/algolia_service.rb'
+require_relative '../../lib/services/algolia/v1/algolia_service.rb'
 class NewsController < ApplicationController
   def index
     search_news_list = V1::Algolia.new('v1').service
