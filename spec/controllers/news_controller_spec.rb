@@ -1,5 +1,5 @@
-#require_relative '../../spec_helper'
-#require_relative '../../rails_helper'
+require 'spec_helper'
+require 'rails_helper'
 RSpec.describe NewsController do
 
 
